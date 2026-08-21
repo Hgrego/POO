@@ -36,8 +36,8 @@ class Desenvolvedor(Funcionario):
             return self.get_salario_base()
 
 
-gerente = Gerente("Bruno Henrique", "0347", 8000, 2000)
-desenvolvedor = Desenvolvedor("Felipe luiz", "0984", 6000, "Senior")
+gerente = Gerente("Bruno Henrique", "0347", 8000, 2700)
+desenvolvedor = Desenvolvedor("Felipe luiz", "0984", 6750, "Senior")
 
 gerente.__salario_base = -100
 
